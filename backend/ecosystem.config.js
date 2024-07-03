@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: "Searcher app",
+        name: "Searcher server",
         script: "./dist/index.js",
         args: "limit"
     }]
