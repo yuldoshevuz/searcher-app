@@ -6,7 +6,7 @@
     "start": "tsc && pm2 start ecosystem.config.js",
     "stop": "pm2 stop ecosystem.config.js",
     "restart": "pm2 restart ecosystem.config.js",
-    "dev": "tsc && nodemon src/index.js"
+    "dev": "tsc && nodemon src/index.ts"
   },
   "keywords": [],
   "author": "Muhammadali <mukhammadaliweb@gmail.com>",

@@ -23,7 +23,11 @@ function App() {
     setError('');
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/search', { email, number: number.replace(/-/g, '') });
+      const SEARCH_API_URL = process.env.REACT_APP_SEARCH_API || "http://localhost:5000/search";
+
+      console.log(SEARCH_API_URL)
+
+      const response = await axios.post(SEARCH_API_URL, { email, number: number.replace(/-/g, '') });
       setResults(response.data);
     } catch (error) {
       console.error('There was an error!', error);
