@@ -33,10 +33,10 @@ This project is a user search application built with React for the frontend and 
 
 2. Install dependencies for both frontend and backend:
 ```bash
-    cd frontend
-    npm install
-    cd ../backend
-    npm install
+cd frontend
+npm install
+cd ../backend
+npm install
 ```
 
 # Running the Application
@@ -44,23 +44,23 @@ This project is a user search application built with React for the frontend and 
 ## Frontend
 ### 1. Navigate to the frontend directory:
 ```bash
-    cd frontend
+cd frontend
 ```
 ### 2. Start the frontend:
 ```bash
-    npm start
+npm start
 ```
 
 ## Backend
 1. Navigate to the backend directory:
 
 ```bash
-    cd backend
+cd backend
 ```
 
 2. Compile the TypeScript code and start the backend
 ```bash
-    npm start
+npm start
 ```
 
 # Project Structure
