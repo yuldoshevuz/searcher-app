@@ -27,8 +27,8 @@ This project is a user search application built with React for the frontend and 
 
 1. Clone the repository:
 ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+git clone <repository-url>
+cd <repository-directory>
 ```
 
 2. Install dependencies for both frontend and backend:
