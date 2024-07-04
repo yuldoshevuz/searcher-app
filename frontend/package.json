@@ -17,7 +17,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "start": "npm run build && pm2 serve build/ 3000 --name \"Searcher client\" --spa",
+    "start": "pm2 serve build/ 3000 --name \"Searcher client\" --spa",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
